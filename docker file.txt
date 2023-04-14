@@ -1,0 +1,7 @@
+FROM ngnix
+maintainer babu
+RUN apt-get update
+RUN apt-get install ngnix
+RUN apt-get install ngnix
+EXPOSE port 8090
+
